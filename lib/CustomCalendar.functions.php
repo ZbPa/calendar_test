@@ -19,7 +19,7 @@ function dayName($date)
     }
 
     if ($m < 1 || $m > 13) {
-        throw new Exception("Invalid month value [ $y ]");
+        throw new Exception("Invalid month value [ $m ]");
     }
 
     // Do the math
